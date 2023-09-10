@@ -27,3 +27,5 @@ while True:
 html=driver.page_source
 with open('ajio.html','w',encoding='utf-8') as f:
     f.write(html)
+
+# we can collect inforamtion from ajio.html from beatiful soup and gather the data for further analysis 
